@@ -1,0 +1,17 @@
+{
+  "name": "elenafrankel",
+  "version": "1.0.0",
+  "description": "elena's website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taradownes/Elena-Frankel.git"
+  },
+
+  "author": "Tara Downes",
+  "license": "ISC"
+}
