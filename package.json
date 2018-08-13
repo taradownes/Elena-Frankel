@@ -14,5 +14,8 @@
   },
 
   "author": "Tara Downes",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+      "express": "*"
+  },
 }
