@@ -17,5 +17,5 @@
   "license": "ISC",
   "dependencies": {
       "express": "*"
-  },
+  }
 }
