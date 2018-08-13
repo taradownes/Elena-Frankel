@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+/***************NAV*************/
+
+.menu {
+  padding: 30px 0px;
+}
+
+.menu a {
+  color: black;
+  font-size: 1.3rem;
+  letter-spacing: 0.7rem;
+  padding: 0 30px;
+  outline: none;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  text-shadow: 0px 0px 1px rgba(240, 240, 240, 0.6), 
+               1px 2px 2px rgba(240, 240, 240, 0.7);    
+}
+
+.menu a:hover {
+  color: rgba(0, 0, 0, 0.4);
+  text-shadow: none;
+}
+
+.top {
+  background: url("livingroom1.jpg") no-repeat;
+  background-position: 10% 48%;
+  background-size: cover;
+  height: 280px;
+  border-bottom: black solid 10px;
+}
+
+.overlay {
+  background-color: rgba(132, 15, 82, 0.3);
+  height: 100%;
+}
+
+.heading {
+  margin-top: 80px;
+  color: black;
+  font-family: "orbitron";
+}
+
+.heading h1 {
+  letter-spacing: 1.4rem;
+  font-size: 4.2rem;
+  padding-left: 50px;
+}
+
+/*************Main****************/
+
+.main {
+  height: auto;
+  margin: 0px;
+}
+
+.main img {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.main .profile {
+  border-bottom: black solid 10px;
+  height: auto;
+}
+
+.main #info {
+  margin: 10%;
+  font-size: 1.0Vw;
+}
+
+.main .img-container {
+  width: 40%;
+  margin: 10% 30%;
+  height: auto;
+}
+
+.main .elena {
+  width: 100%;
+  height: auto;
+}
+
+.main .col-md-6 {
+  padding: 0;
+}
+
+.main h1 {
+  font-family: "orbitron";
+  letter-spacing: 0.25rem;
+  padding: 15px 0 0 30px;
+}
+
+.main .content {
+  margin: 10% 30px;
+}
+
+.main .experience {
+  border-bottom: black solid 10px;
+}
+
+/***************Footer***************/
+
+.footer {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer .stripe {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer li {
+  list-style: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: black;
+  letter-spacing: 0.5rem;
+  padding: 0 30px;
+}

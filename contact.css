@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+/***************NAV*************/
+
+.menu {
+  padding: 30px 0px;
+}
+
+.menu a {
+  color: black;
+  font-size: 1.3rem;
+  letter-spacing: 0.7rem;
+  padding: 0 30px;
+  outline: none;
+    transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  text-shadow: 0px 0px 1px rgba(240, 240, 240, 0.6), 
+               1px 2px 2px rgba(240, 240, 240, 0.7); 
+}
+
+.menu a:hover {
+  color: rgba(0, 0, 0, 0.4);
+  text-shadow: none;
+}
+
+.top {
+  background: url("livingroom1.jpg") no-repeat;
+  background-position: 10% 48%;
+  background-size: cover;
+  height: 280px;
+  border-bottom: black solid 10px;
+}
+
+.overlay {
+  background-color: rgba(132, 15, 82, 0.3);
+  height: 100%;
+}
+
+.heading {
+  margin-top: 80px;
+  color: black;
+  font-family: "orbitron";
+}
+
+.heading h1 {
+  letter-spacing: 1.4rem;
+  font-size: 4.2rem;
+  padding-left: 50px;
+}
+
+/***************main******************/
+
+.information {
+  background-color: black;
+  color: white;
+  padding: 50px 15px;
+}
+
+.information h1 {
+  font-family: "orbitron", sans-serif;
+  letter-spacing: 0.3rem;
+  padding-bottom: 30px;
+}
+
+.information ul {
+  list-style: none;
+  line-height: 3.0rem;
+  letter-spacing: 0.2rem;
+}
+
+.header {
+  margin-top: 0;
+  padding: 0;
+  font-family: "Raleway";
+  height: auto;
+  border-bottom: black solid 10px;
+}
+
+.header .form {
+  padding: 70px 80px;
+}
+
+.header input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0px 0px 15px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.header input[type=submit] {
+  width: 100%;
+  background-color: rgba(132, 15, 82, 0.2);
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header input[type=submit]:hover {
+  background-color: rgba(132, 15, 82, 0.1);
+}
+
+.header textarea {
+  width: 100%;
+  height: 300px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.header .contact {
+  border-radius: 10px;
+  background: rgba(150, 150, 150, 0.2);
+  padding: 50px 30px;
+}
+
+.header .border {
+  border: solid 1px rgba(0, 0, 0, 0.5);
+  padding: 6px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header label {
+  font-family: "raleway", sans-serif;
+}
+
+/***************Footer***************/
+
+.footer {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer .stripe {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer li {
+  list-style: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: black;
+  letter-spacing: 0.5rem;
+  padding: 0 30px;
+}
