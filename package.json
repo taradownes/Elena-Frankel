@@ -7,15 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/taradownes/Elena-Frankel.git"
   },
-
   "author": "Tara Downes",
   "license": "ISC",
   "dependencies": {
-      "express": "*"
+    "body-parser": "^1.18.3",
+    "express": "*",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.6.7"
   }
 }
