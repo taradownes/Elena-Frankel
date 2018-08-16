@@ -32,7 +32,7 @@ body {
 }
 
 .top {
-  background: url("livingroom1.jpg") no-repeat;
+  background: url("../images/livingroom1.jpg") no-repeat;
   background-position: 10% 48%;
   background-size: cover;
   height: 280px;
@@ -48,6 +48,8 @@ body {
   margin-top: 80px;
   color: black;
   font-family: "orbitron";
+  text-shadow: 0px 0px 6px rgba(240, 240, 240, 0.6),
+                0px 2px 8px rgba(240, 240, 240, 0.3);
 }
 
 .heading h1 {

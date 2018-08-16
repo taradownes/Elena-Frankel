@@ -32,7 +32,7 @@ body {
 }
 
 .top {
-  background: url("livingroom1.jpg") no-repeat;
+  background: url("../images/livingroom1.jpg") no-repeat;
   background-position: 10% 48%;
   background-size: cover;
   height: 280px;
@@ -48,6 +48,8 @@ body {
   margin-top: 80px;
   color: black;
   font-family: "orbitron";
+   text-shadow: 0px 0px 6px rgba(240, 240, 240, 0.6),
+               0px 2px 8px rgba(240, 240, 240, 0.3);
 }
 
 .heading h1 {
@@ -68,12 +70,14 @@ body {
   font-family: "orbitron", sans-serif;
   letter-spacing: 0.3rem;
   padding-bottom: 30px;
+  font-size: 2.9vw;
 }
 
 .information ul {
   list-style: none;
   line-height: 3.0rem;
   letter-spacing: 0.2rem;
+  font-size: 1.0vw;
 }
 
 .header {
@@ -115,7 +119,7 @@ body {
 
 .header textarea {
   width: 100%;
-  height: 300px;
+  height: 200px;
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid #ccc;
@@ -142,6 +146,13 @@ body {
 
 .header label {
   font-family: "raleway", sans-serif;
+}
+
+.message{
+  color: rgb(132, 15, 82);
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-top: 10px;
 }
 
 /***************Footer***************/

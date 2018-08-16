@@ -16,8 +16,18 @@ app.use(bodyParser.urlencoded({
 app.use(express.static(__dirname));
 // app.use("/public", express.static(__dirname, "public"));
 
+
+//Routes
 app.get("/", function(req, res){
-	res.sendFile(__dirname + "/index.html");
+	res.render("index");
+});
+
+app.get("/about", function(req, res){
+    res.render("about");
+});
+
+app.get("/properties", function(req, res){
+    res.render("properties");
 });
 
 app.get("/contact", function(req, res){
@@ -66,11 +76,11 @@ app.post("/contact", function(req, res){
         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
         // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-        // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
-   	res.render('contact', {msg: 'Email has been sent'});
+        // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...  
+   	res.render('contact', {msg: "Thank you for your message! I will get back to you as soon as possible!"});
+
     });
 });
-
 
 
 // app.listen(process.env.PORT, process.env.IP, function(){

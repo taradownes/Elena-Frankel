@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Elena Frankel</title>
-    <link rel="stylesheet" href="./public/css/contact.css">
-    <meta charset="utf-8">
+	<title>Elena Frankel</title>
+	  <link rel="stylesheet" href="./public/css/style.css">
+	  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"  integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
   
-    <link href="https://fonts.googleapis.com/css?family=Orbitron|Raleway" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Orbitron|Raleway" rel="stylesheet"> 
 </head>
 
 <body>
-  
+<div class="overlay">  
+  <!----- Navigation ------>
 <div class="top">
   <div class="overlay">
    <div class="menu">  
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link" href="/">HOME</a>
+        <a class="nav-link active" href="/">HOME</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/about">ABOUT</a>
@@ -28,56 +29,22 @@
         <a class="nav-link" href="/properties">PROPERTIES</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="/contact">CONTACT</a>
+        <a class="nav-link" href="/contact">CONTACT</a>
       </li>
     </ul>
    </div>
  
 
   <!----heading-------->
-      <div class="heading">
-         <h1>Contact</h1>
-      </div>
-    </div
+  <div class="heading">
+	  <h1>Elena Frankel</h1>
+	  <h2>Chicago Real Estate</h2>
+	  <img> <!--Logo-->
   </div>
-  <!---------Main-------->
-  
- <div class="header container-fluid">
-   <div class="row">
-     <div class="col-md-4 information">
-          <h1> Information </h1>
-         <ul>
-           <li><strong>Elena Frankel</strong></li>
-           <li>Compass</li>          
-           <li>p: 312.857.6290</li>
-           <li>e: elena@elenafrankel.com</li>
-         </ul>
-     </div>
-     <div class="col-md-8 form">
-   <div class="border">
-    <div class="contact">
-        <h4>Questions about services or properties? Contact Elena by filling out the form below!</h4>
-          
-        <h6 class="message">{{msg}}</h6>
-        
-        <form action="/contact" method="post">
-          <label for="name">Name</label>
-          <input type="text" name="name" placeholder="Name.." required><br>
-          <label for="email">Email</label>
-          <input type="email" name="email" placeholder="Email.." required><br>
-          <label for="message">Message</label>
-          <textarea type="text" name="message" placeholder="Message..." required></textarea><br>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-    </div>
-   </div>
-  </div>
-</div> 
   
   <!--------Footer------>
   
-  <div class="footer">
+ <div class="footer">
     <div class="stripe">
       <ul>
         <li>312-857-6290</li>
@@ -89,7 +56,7 @@
     </div>
   </div>
   
-  
+  </div>  
   
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
