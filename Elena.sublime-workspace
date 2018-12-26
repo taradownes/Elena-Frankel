@@ -1,0 +1,464 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"req",
+				"require"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"S",
+				"sans-serif\tfont-family"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"back",
+				"background-size\tproperty"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"q",
+				"querySelectorAll"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"num",
+				"numOfSquares"
+			],
+			[
+				"hard",
+				"hardMode"
+			],
+			[
+				"pick",
+				"pickNewColors"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"b",
+				"backgroundColor"
+			],
+			[
+				"random",
+				"randomColor"
+			],
+			[
+				"te",
+				"text-align-last"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"cl",
+				"classList"
+			],
+			[
+				"ga",
+				"gameOver"
+			],
+			[
+				"p2",
+				"p2Score"
+			],
+			[
+				"p1",
+				"p1Score"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"new",
+				"newTodo"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"user",
+				"userLast"
+			],
+			[
+				"y",
+				"your"
+			],
+			[
+				"p",
+				"prompt"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"tex",
+				"text-right"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"navbar",
+				"navbar-nav"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"m",
+				"maxlength\tAttr"
+			],
+			[
+				"DOGS",
+				"dogs"
+			],
+			[
+				"dogs",
+				"dogs"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 274.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/tara/Web/Projects/ElenaFrankel/properties.html",
+		"/home/tara/Web/Projects/ElenaFrankel/views/contact.handlebars",
+		"/home/tara/Web/Projects/practice/contact_form/package.json",
+		"/home/tara/Web/Projects/ElenaFrankel/app.js",
+		"/home/tara/Web/Projects/practice/contact_form/app.js",
+		"/home/tara/Web/Projects/ElenaFrankel/contact.handlebars",
+		"/home/tara/Web/Projects/ElenaFrankel/index.html",
+		"/home/tara/Web/Projects/ElenaFrankel/about.html",
+		"/home/tara/Web/Projects/practice/contact_form/views/contact.handlebars",
+		"/home/tara/Web/Projects/practice/contact form/contact.html",
+		"/home/tara/Web/Projects/practice/contact form/app.js",
+		"/home/tara/Web/Projects/ElenaFrankel/package.json",
+		"/home/tara/Web/Projects/practice/app.js",
+		"/home/tara/Web/Udemy/Circle/circles.css",
+		"/home/tara/Web/Projects/Maxine Frankel/index.html",
+		"/home/tara/Web/Projects/Maxine Frankel/gallery.html",
+		"/home/tara/Web/Projects/Maxine Frankel/var sound = new Howl({",
+		"/home/tara/Web/Projects/Maxine Frankel/style.scss",
+		"/home/tara/Web/Projects/Maxine Frankel/gallery.scss",
+		"/home/tara/.cache/.fr-R15EmF/Exercise/ExerciseSolution.html",
+		"/home/tara/Web/Udemy/Circle/circle.html",
+		"/home/tara/Web/Udemy/example.html",
+		"/home/tara/Web/Projects/Moneycare/about.html",
+		"/home/tara/Web/Projects/Moneycare/about.css",
+		"/home/tara/Web/Projects/No Denial/style.css",
+		"/home/tara/Web/Udemy/todo.js",
+		"/home/tara/Web/Udemy/jq.css",
+		"/home/tara/Web/Udemy/jq.js",
+		"/home/tara/Web/Udemy/jq.html",
+		"/home/tara/Web/Projects/No Denial/index.html",
+		"/home/tara/Web/Udemy/todo.html",
+		"/home/tara/Web/Udemy/loops.html",
+		"/home/tara/Web/Udemy/javascript.html",
+		"/home/tara/Web/Projects/ElenaFrankel/about.css",
+		"/home/tara/Web/Projects/ElenaFrankel/style.css",
+		"/home/tara/Web/Projects/ElenaFrankel/about.scss",
+		"/home/tara/Web/Udemy/guess.html",
+		"/home/tara/Web/Udemy/button.html",
+		"/home/tara/Web/Projects/ElenaFrankel/contact.css",
+		"/home/tara/Web/Projects/ElenaFrankel/properties.css",
+		"/home/tara/Web/Projects/Elena Frankel/style.js",
+		"/home/tara/Web/Udemy/loops.js",
+		"/home/tara/Web/Projects/ElenaFrankel/contact.html",
+		"/home/tara/Web/Projects/Elena Frankel/style.scss",
+		"/home/tara/Web/Udemy/project.css",
+		"/home/tara/Web/Projects/Elena Frankel/properties.css",
+		"/home/tara/Web/Projects/Elena Frankel/contact.css",
+		"/home/tara/Web/Projects/Elena Frankel/about.css",
+		"/home/tara/Web/Projects/Elena Frankel/style.css",
+		"/home/tara/Web/Projects/Elena Frankel/properties.html",
+		"/home/tara/Web/Projects/Elena Frankel/contact.html",
+		"/home/tara/Web/Projects/Elena Frankel/about.html",
+		"/home/tara/Web/Projects/Elena Frankel/index.html",
+		"/home/tara/Web/Projects/Moneycare/style.css",
+		"/home/tara/Web/Projects/Moneycare/services.css",
+		"/home/tara/Web/Projects/Moneycare/index.html",
+		"/home/tara/Web/Udemy/project.js",
+		"/home/tara/Web/Udemy/project.html",
+		"/home/tara/Web/Udemy/cheat sheet JS",
+		"/home/tara/Web/Udemy/button.js",
+		"/home/tara/Web/Udemy/problems.js",
+		"/home/tara/Web/Udemy/script.js",
+		"/home/tara/Web/Udemy/guess.js",
+		"/home/tara/Web/Projects/Moneycare/contact.css",
+		"/home/tara/Web/Projects/Moneycare/contact.html",
+		"/home/tara/Web/Projects/Moneycare/services.html",
+		"/home/tara/Web/Udemy/basics.css",
+		"/home/tara/Web/Udemy/basics.html",
+		"/home/tara/.cache/.fr-ggM9MN/PurrfectMatch/index.html",
+		"/home/tara/Web/Projects/Moneycare/bootstrapfile.css",
+		"/home/tara/Web/Projects/Moneycare/Bootstrap.html",
+		"/home/tara/Web/Udemy/gallery.css",
+		"/home/tara/Web/Udemy/tictactoe.css",
+		"/home/tara/Web/Udemy/gallary.html",
+		"/home/tara/Web/Udemy/tictactoe.html",
+		"/home/tara/Web/Udemy/form.html",
+		"/home/tara/Web/Projects/Moneycare/contact.scss",
+		"/home/tara/Web/Projects/Moneycare/services.scss",
+		"/home/tara/Web/Projects/Moneycare/about.scss",
+		"/home/tara/Web/Projects/Moneycare/style.scss",
+		"/home/tara/Web/Udemy/firstpage.html",
+		"/home/tara/Web/Udemy/pokemon.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"100",
+			"transition",
+			"value",
+			"]",
+			"[",
+			"toggler"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Elena.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 103.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

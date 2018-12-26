@@ -15,7 +15,7 @@ body {
 
 .menu a {
   color: black;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   letter-spacing: 0.7rem;
   padding: 0 30px;
   outline: none;
@@ -27,7 +27,7 @@ body {
 }
 
 .menu a:hover {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.7);
   text-shadow: none;
 }
 
