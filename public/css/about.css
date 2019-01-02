@@ -1,42 +1,50 @@
-`* {
+* {
   box-sizing: border-box;
+}
+
+html{
+  background: rgb(15, 15, 15);
+
 }
 
 body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
+
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 /***************NAV*************/
 
-.menu {
-  padding: 30px 0px;
+.navbar {
+  background: black;
+  padding: 0 !important;
+  font-size: 0.9rem;
+  
+}
+.navbar-brand{
+  padding-left: 20px;
+}
+.nav-link{
+  padding: 0 20px !important;
 }
 
 .menu a {
-  color: black;
-  font-size: 1.1rem;
-  letter-spacing: 0.7rem;
-  padding: 0 30px;
+  letter-spacing: 0.4rem;
   outline: none;
-  transition: all 0.3s;
+    transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
-  text-shadow: 0px 0px 1px rgba(240, 240, 240, 0.9), 
-               1px 2px 2px rgba(240, 240, 240, 0.7);    
-}
 
-.menu a:hover {
-  color: rgba(0, 0, 0, 0.7);
-  text-shadow: none;
 }
 
 .top {
   background: url("../images/livingroom1.jpg") no-repeat;
   background-position: 10% 48%;
   background-size: cover;
-  height: 280px;
-  border-bottom: black solid 10px;
 }
 
 .overlay {
@@ -45,17 +53,24 @@ body {
 }
 
 .heading {
-  margin-top: 80px;
   color: black;
   font-family: "orbitron";
-  text-shadow: 0px 0px 6px rgba(240, 240, 240, 0.6),
-                0px 2px 8px rgba(240, 240, 240, 0.3);
+  /* text-shadow: 2px 2px 2px rgba(240, 240, 240, 0.9),
+                2px 2px 4px rgba(240, 240, 240, 0.7); */
+}
+
+.outline{
+
+    text-shadow:
+    -1px -1px 0 rgba(200, 200, 200, 0.6),
+    1px -1px 0 rgba(200, 200, 200, 0.6),
+    -1px 1px 0 rgba(200, 200, 200, 0.6),
+    1px 1px 0 rgba(200, 200, 200, 0.6); 
 }
 
 .heading h1 {
   letter-spacing: 1.4rem;
-  font-size: 4.2rem;
-  padding-left: 50px;
+
 }
 
 /*************Main****************/
@@ -63,12 +78,14 @@ body {
 .main {
   height: auto;
   margin: 0px;
+  display: none;
 }
 
 .main img {
   overflow: hidden;
   width: 100%;
   height: auto;
+ 
 }
 
 .main .profile {
@@ -76,20 +93,10 @@ body {
   height: auto;
 }
 
-.main #info {
-  margin: 10%;
-  font-size: 1.0Vw;
-}
-
-.main .img-container {
-  width: 40%;
-  margin: 10% 30%;
-  height: auto;
-}
-
 .main .elena {
   width: 100%;
-  height: auto;
+  height: 100%;
+  border-radius: 10px;
 }
 
 .main .col-md-6 {
@@ -99,33 +106,155 @@ body {
 .main h1 {
   font-family: "orbitron";
   letter-spacing: 0.25rem;
-  padding: 15px 0 0 30px;
-}
-
-.main .content {
-  margin: 10% 30px;
+  padding: 15px 0 0 20px;
 }
 
 .main .experience {
   border-bottom: black solid 10px;
 }
 
+#main {
+  padding: 0;
+}
+
+
 /***************Footer***************/
 
 .footer {
   padding: 30px 0;
   text-align: center;
+  display: none;
 }
 
 .footer .stripe {
   background-color: rgba(255, 255, 255, 0.3);
 }
-
+.footer ul{
+  padding: 0;
+}
 .footer li {
   list-style: none;
   display: inline-block;
-  font-size: 1.2rem;
   color: black;
-  letter-spacing: 0.5rem;
-  padding: 0 30px;
+}
+
+
+@media screen and (min-width: 1101px ) {
+  .top{
+    height: 200px;
+  }
+  .heading h1{
+    font-size: 4.2rem;
+    padding-top: 90px;
+    padding-left: 50px;
+    letter-spacing: 1.4rem;
+  }
+  .main #info {
+    margin: 5%;
+    font-size: 1.4rem;
+    padding-top: 30px;
+  }
+  .main .content{
+    font-size: 1.1rem;
+    margin: 10% 20px;
+  }
+  .main .img-container {
+    margin: 5% auto;
+    max-width: 250px;
+  }
+  .main h1{
+    font-size: 2.0rem;
+  }
+  .footer li {
+    font-size: 1.2rem;
+    padding: 0 30px;
+    letter-spacing: 0.5rem;
+  }
+
+}
+
+@media screen and (max-width: 1100px){
+  
+  .top{
+    height: 200px;
+  }
+  .heading h1{
+    font-size: 4.2rem;
+    padding-top: 90px;
+    padding-left: 50px;
+    letter-spacing: 1.4rem;
+  }
+  .main #info {
+    margin: 5%;
+    font-size: 1.1rem;
+    padding-top: 20px;
+  }
+  .main .img-container {
+    margin: 5% auto;
+    max-width: 200px;
+  }
+  .main .content{
+    font-size: 0.9rem;
+    margin: 6% 20px;
+  }
+  .main h1{
+    font-size: 1.4rem;
+   
+  }
+  .footer li {
+    font-size: .85rem;
+    padding: 0 12px;
+    letter-spacing: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top{
+    height: 120px;
+  }
+  .heading h1{
+    font-size: 2.2rem;
+    padding-top: 60px;
+    padding-left: 50px;
+    letter-spacing: 1.4rem;
+  }
+  .main #info {
+    margin: 5%;
+    font-size: 0.9rem;
+    padding-top: 10px;
+  }
+  .main .img-container {
+    margin: 5% auto 0 auto;
+    max-width: 150px;
+  }
+  .main .content{
+    font-size: 0.8rem;
+    margin: 5% 20px;
+  }
+  .main h1{
+    font-size: 1.1rem;
+  }
+  .footer li {
+    font-size: .7rem;
+    padding: 0 5px;
+    letter-spacing: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .heading h1{
+    font-size: 1.2rem;
+    padding-top: 60px;
+    padding-left: 10px;
+    letter-spacing: 1rem;
+  }
+  .main #info {
+    margin: 5%;
+    font-size: 1rem;
+  }
+  .footer li {
+    font-size: .5rem;
+    padding: 0 5px;
+    letter-spacing: 0.3rem;
+  }
 }

@@ -1,49 +1,49 @@
-html { 
-    background: url("../images/homescreen.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-
 body {
   box-sizing: border-box;
-  font-size: 16px;
-  background: rgba(132, 15, 82, 0.3) center no-repeat !important;
-  background-size: cover; 
-  height: 100vh;
+  font-size: 16px; 
   font-family: "Raleway", sans-serif;
+  background: rgb(15, 15, 15);
+  
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
-.overlay {
-  /* background: rgba(132, 15, 82, 0.2) center no-repeat; */
-  /* background-size: cover; */
+.top{
+  display: none;
+  background: url("../images/efchicago.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
   
+}
+
+.info{
+  display: none;
 }
 
 /***********NAV************/
 
 .menu {
-  padding: 30px 0 0 0;
+  /* padding: 30px 0 0 0; */
+  width: 100%;
 }
 
 .menu a {
-  color: black;
-  font-size: 1.1rem;
-  letter-spacing: 0.7rem;
-  padding: 0 30px;
+  color: black !important;
+  font-weight: bold;
+  letter-spacing: 0.4rem;
+ 
   outline: none;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
-  /* text-shadow: 0px 0px 1px rgba(240, 240, 240, 0.6), 
-               1px 2px 2px rgba(240, 240, 240, 0.7);  */
 }
 
 .menu a:hover {
-  color: rgba(0, 0, 0, 0.7);
-  text-shadow: none;
+  color: rgba(0, 0, 0, 0.7) !important;
 }
 
 /****************Main***************/
@@ -51,39 +51,117 @@ body {
 .heading {
 
   text-align: center;
-  padding: 20vh 0 0 0;
   font-family: "Orbitron";
   color: black;
 }
 
-.heading h1 {
-  font-size: 5.0rem;
-  /* text-shadow: 0px 0px 6px rgba(240, 240, 240, 0.6), */
-               /* 0px 2px 8px rgba(240, 240, 240, 0.3); */
+.body {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 20px;
+  padding: 10px 0;
 }
 
-.heading h2 {
-  font-size: 2.5rem;
-    /* text-shadow: 0px 0px 4px rgba(240, 240, 240, 0.6), */
-               /* 0px 2px 6px rgba(240, 240, 240, 0.3); */
-}
+
+
 
 /***************Footer***************/
 
 .footer {
   padding: 20vh 0 0 0;
   text-align: center;
+
 }
 
 .footer .stripe {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 
 .footer li {
   list-style: none;
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   color: black;
   letter-spacing: 0.5rem;
   padding: 0 30px;
+}
+
+
+@media screen and (min-width: 1101px ) {
+  .heading h1 {
+    font-size: 5.0rem;
+  } 
+  .heading h2 {
+    font-size: 2.5rem;
+  }
+  .menu a{
+    font-size: 0.8rem;
+  }
+  .heading img {
+    width: 200px;
+  }
+  .menu li {
+    margin: 0 4%;
+    }
+ .body{
+      width: 60% !important;
+    }
+  .heading{
+    padding: 20vh 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .heading h1 {
+    font-size: 3.5rem;
+  
+  }
+  .heading h2 {
+    font-size: 1.8rem;
+  }
+
+  .menu a{
+    font-size: 0.6rem;
+  }
+  .heading img {
+    width: 150px;
+  }
+  .menu li {
+    margin: 0 2.5%;
+    }
+    .body{
+      width: 80% !important;
+    }
+    .heading{
+      padding: 20vh 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .heading h1 {
+    font-size: 2.5rem;
+  }
+  .heading h2 {
+    font-size: 1.3rem;
+  }
+  .heading img {
+    width: 150px;
+  }
+  .heading{
+    padding: 20vh 0 0 0;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading h1 {
+    font-size: 2.0rem;
+  }
+  .heading h2 {
+    font-size: 1.1rem;
+  }
+  .heading img {
+    width: 110px;
+  }
+  .heading{
+    padding: 5vh 0 0 0;
+  }
 }

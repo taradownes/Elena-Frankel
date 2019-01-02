@@ -15,8 +15,18 @@
   
 <div class="top">
   <div class="overlay">
-    <div class="navbar navbar-expand-md navbar-light">
-        <a class="navbar-brand" href="/"><img src="../public/images/logo.png" alt="Logo" width=50></a>
+ 
+
+  <!----heading-------->
+      <div class="heading">
+         <h1 class="outline">Contact</h1>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="/"><img src="../public/images/logowhite.png" alt="Logo" width=30></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,17 +47,9 @@
           </ul>
         </div>
       </div>
- 
-
-  <!----heading-------->
-      <div class="heading">
-         <h1>Contact</h1>
-      </div>
-    </div
-  </div>
   <!---------Main-------->
   
- <div class="header container-fluid">
+ <div class="header container-fluid main">
    <div class="row">
      <div class="col-md-4 information">
           <h1> Information </h1>
@@ -59,19 +61,18 @@
          </ul>
      </div>
      <div class="col-md-8 form">
-   <div class="border">
+   <div>
+     <h4>Interested in selling, buying, investing, or general inquery?</h4>
+        <h6>Let's connect - I'd love to help! </h6>
     <div class="contact">
-        <h4>Questions about services or properties? Contact Elena by filling out the form below!</h4>
+        
           
         <h6 class="message">{{msg}}</h6>
         
         <form action="/contact" method="post">
-          <label for="name">Name</label>
-          <input type="text" name="name" placeholder="Name.." required><br>
-          <label for="email">Email</label>
-          <input type="email" name="email" placeholder="Email.." required><br>
-          <label for="message">Message</label>
-          <textarea type="text" name="message" placeholder="Message..." required></textarea><br>
+           <input type="text" name="name" placeholder="Full Name" required><br>
+          <input type="email" name="email" placeholder="Email" required><br>
+          <textarea type="text" name="message" placeholder="Message for Elena" required></textarea><br>
           <input type="submit" value="Submit">
         </form>
       </div>
@@ -99,5 +100,7 @@
 <script src="../node_modules/jquery/dist/jquery.js"></script>
 <script src="../node_modules/popper.js/dist/umd/popper.js"></script>
 <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../public/style.js"></script>
+
 </body>
 </html>
