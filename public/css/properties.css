@@ -4,7 +4,6 @@
 
 html{
   background: rgb(15, 15, 15);
-
 }
 
 ::-webkit-scrollbar {
@@ -14,7 +13,6 @@ html{
 body {
   font-family: "raleway", sans-serif;
   font-size: 16px;
-  
 }
 
 .font {
@@ -172,6 +170,10 @@ body {
   .top{
     height: 200px;
   }
+  .header {
+    padding: 50px 25px;
+    text-align: center;
+  }
   .heading h1{
     font-size: 4.2rem;
     padding-top: 90px;
@@ -215,7 +217,7 @@ body {
     padding-left: 50px;
     letter-spacing: 1.4rem;
   }
-  .main .header {
+  .header {
     padding: 50px 25px;
     text-align: center;
   }
